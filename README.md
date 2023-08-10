@@ -24,6 +24,10 @@ Kernel version: 6.1</br>
 Debian version: 11 (bullseye)</br>
 Size: 818MB</br>
 
+Three.js (r155)</br>
+
+websocketd (pipe Linux stdin/stdout to javascript websocket)</br>
+
 # Setup
 
 https://docs.luxonis.com/projects/api/en/latest/install/?highlight=raspberry%20pi#raspberry-pi-os
@@ -194,7 +198,10 @@ https://docs.luxonis.com/projects/api/en/latest/install/?highlight=raspberry%20p
 
 https://threejs.org/
 
-https://github.com/joewalnes/websocketd
+An ARM websocketd 0.3.0 binary is available for Pi from.</b>
+
+https://github.com/joewalnes/websocketd (should be a link to websocketd.com which has a download)
+
 
 
 
