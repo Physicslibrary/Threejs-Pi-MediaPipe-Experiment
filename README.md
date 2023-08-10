@@ -97,7 +97,7 @@ import * as THREE from 'three';
 import { OrbitControls } from './jsm/controls/OrbitControls.js';
 
 var camera, scene, renderer, controls;
-var geometry, thumb-tip, index-tip;
+var geometry, thumb_tip, index_tip;
 
 var text=[560,300,560,300,0,0,1000];
 
@@ -143,13 +143,13 @@ function init() {
 
 	geometry = new THREE.BoxGeometry(0.4,0.4,0.4);
 
-	thumb-tip = new THREE.Mesh(geometry, new THREE.MeshBasicMaterial({color: 0x00ff00}));
-	thumb-tip.material.wireframe = true;
-	scene.add(thumb-tip);
+	thumb_tip = new THREE.Mesh(geometry, new THREE.MeshBasicMaterial({color: 0x00ff00}));
+	thumb_tip.material.wireframe = true;
+	scene.add(thumb_tip);
 
-	index-tip = new THREE.Mesh(geometry, new THREE.MeshBasicMaterial({color: 0x00ff00}));
-	index-tip.material.wireframe = true;
-	scene.add(index-tip);
+	index_tip = new THREE.Mesh(geometry, new THREE.MeshBasicMaterial({color: 0x00ff00}));
+	index_tip.material.wireframe = true;
+	scene.add(index_tip);
 	
 	}
 
@@ -167,13 +167,13 @@ function init() {
 		requestAnimationFrame(animate);
 		controls.update();
 
-		thumb-tip.position.x = (560-text[0])/50;
-		thumb-tip.position.y = (300-text[1])/50;
-		thumb-tip.position.z = (text[6]-1000)/50;
+		thumb_tip.position.x = (560-text[0])/50;
+		thumb_tip.position.y = (300-text[1])/50;
+		thumb_tip.position.z = (text[6]-1000)/50;
 
-		index-tip.position.x = (560-text[2])/50;
-		index-tip.position.y = (300-text[3])/50;
-		index-tip.position.z = (text[6]-1000)/50;
+		index_tip.position.x = (560-text[2])/50;
+		index_tip.position.y = (300-text[3])/50;
+		index_tip.position.z = (text[6]-1000)/50;
 		
 		renderer.render(scene, camera);
 
