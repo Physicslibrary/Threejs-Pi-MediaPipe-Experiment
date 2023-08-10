@@ -34,13 +34,9 @@ sudo curl -fL https://docs.luxonis.com/install_dependencies.sh | bash
 
 # References</br>
 
-https://www.luxonis.com/
-
 https://docs.luxonis.com/en/latest/#example-use-cases
 
 https://github.com/geaxgx/depthai_hand_tracker
-
-https://www.raspberrypi.com/
 
 https://www.raspberrypi.com/software/operating-systems/
 
